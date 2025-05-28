@@ -13,7 +13,8 @@ public class input {
 
     System.out.println("Age is" +age);
     System.out.println("character is  " +u);
-
+    sc.close();
   }
+
 
 }
