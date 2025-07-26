@@ -6,7 +6,7 @@ public class sum_while {
     Scanner s = new Scanner(System.in);
     int i = 0, sum = 0,n;
 
-    System.out.println("Enter the number");
+    System.out.println("Enter the number till you need the sum");
     n = s.nextInt();
     s.close();
 
