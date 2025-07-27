@@ -15,6 +15,7 @@ public class factorial {
     Scanner s= new Scanner(System.in);
     System.out.println("Enter the number do you want to find factorial");
     int a= s.nextInt();
+    s.close();
 
     System.out.println("The factorial of number is "+fac(a));
 

@@ -14,6 +14,7 @@ public class su_function {
     a=s.nextDouble();
     System.out.print("Enter second value: ");
     b=s.nextDouble();
+    s.close();
 
     double c= sum(a,b);
 

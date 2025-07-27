@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class multiply {
-  public static double multiply(double a, double b){
+  public static double multiplication(double a, double b){
     double d= a*b;
     return d;
   }
@@ -14,8 +14,9 @@ public class multiply {
 
     System.out.print("Enter the second value: ");
     b = s.nextDouble();
+    s.close();
 
-    System.out.println("The result of multipication is "+ multiply(a, b));
+    System.out.println("The result of multipication is "+ multiplication(a, b));
 
 
 
