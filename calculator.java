@@ -14,7 +14,5 @@ public class calculator {
     a = a+b;
 
     System.out.println("The value of sum is " +a);
-
-
   }
 }
